@@ -1,0 +1,11 @@
+/* 1. 定义英文字体，并限制范围 */
+@font-face {
+  font-family: 'Lexend'; /* 自定义一个混合字体的名字 */
+  src: url('https://cdn.jsdmirror.com/gh/CYYYY5/chiyupic@main/fonts/LexendDeca/LexendDeca-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  /* 关键点：unicode-range
+     U+0000-00FF: 基本拉丁字母 + 符号 + 数字 (涵盖大部分英文场景)
+  */
+  unicode-range: U+0000-00FF; 
+}
